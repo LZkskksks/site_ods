@@ -1,22 +1,22 @@
 body {
-    background-color: #fff8e1;
+    background-color: #fce4ec;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #bf8b2e;
+    background-color: #dd1367;
     color: white;
     padding: 20px;
 }
 
 .header-content {
     display: flex;
-    align-items: center;  /*alinha na vertical*/
-    justify-content: center;  /*alinha na horizontal*/
-    gap: 20px;  /*espaçamento interno*/
-    flex-wrap: wrap;  /*quebra a linha e ajusta*/
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .header-text {
@@ -37,7 +37,7 @@ img {
     height: auto;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
@@ -61,29 +61,29 @@ article {
     box-shadow: 0 0 80px rgba(red, green, blue, alpha);
 }
 
-ul{
+ul {
     margin-top: 10px;
     padding-left: 20px;
 }
 
-li{
+li {
     font-size: 20px;
 }
 
-h2{
-    color: #bf8b2e;
+h2 {
+    color: #dd1367;
     font-size: 30px;
 }
 
-footer{
-    background-color: #bf8b2e;
+footer {
+    background-color: #dd1367;
     padding: 10px;
     text-align: center;
     margin-top: 30px;
     font-size: 20px;
 }
 
-/*Para celulares*/
+/* Para celulares */
 @media (max-width: 768px) {
     img {
         width: 60%;
@@ -93,7 +93,7 @@ footer{
         font-size: 40px;
     }
 
-    p{
+    p {
         font-size: 20px;
     }
 }
